@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+doctype이라 함은, 이 파일의 HTML버전이 무엇인지를 나타내는 것이다. 지금은
+버전5로, html이라는 매우 짧게 표시할 수 있지만 버전4만 했어도 엄청 긴 코드를
+삽입해야 했었다.
+<html>
+  html태그라 함은, 이 태그 사이에 있는 모든 내용은 html코드라고 웹 브라우저에게
+  말하는 것이다.
+  <head>
+    헤드 태그는 이 html파일에 대한 정보를 담고 있는 곳이다. 즉 웹브라우저가 이
+    파일을 어떻게 다루어야 하는지를 설명하는 부분이다.
+    <meta charset="UTF-8" />
+    메타 태그는 이 파일에 대한 메타데이터를 제공한다. 특히나 이 윗줄은
+    utf8인코딩 시스템으로 인코딩되었음을 의미한다. utf는 유니코드다. 즉,
+    특정언어로 읽히는 것이 아닌 여러가지 기호체계를 모두 다룰수 있는 인코딩
+    체계라고 나는 이해하였다. 예를 들어, 일본에서 224번 기호와 아랍어에서 224번
+    코드는 전혀 다른 언어이다. 따라서 일본어 인코딩 시스템으로 쓰여진 웹페이지를
+    아랍어 인코딩시스템으로 읽으면 의미가 없는 아랍문자의 나열에 불과하게 한다.
+    심지어 언어가 아닌 기호들도 제대로 인코딩할 수 있다. ♥ &#9829;
+    <meta
+      name="description"
+      content="메타 태그의 이 description 부분은, 이 웹페이지가 뭐하는 웹페이지인지 설명하는 역할을 한다. 실제로 여기 적힌 글은 단순히 글에 불과하지만, 중요한 점은 검색엔진이 내 웹피이지가 뭐하는 녀석인지 파악하기 위해서 여기에 적힌 글을 이용한다는 것이다. 즉 여기에 적힌 글은 내 웹페이지가 어떤 검색어를 통해 노출될 수 있는지에 영향을 끼친다고 볼수 있을 것 같다."
+    />
+    <title>김승범</title>
+  </head>
+  <body>
+    <table>
+      <td>
+        <img
+          src="https://cdn.pixabay.com/photo/2021/10/26/12/34/christmas-6743572_960_720.jpg"
+          alt="this is just a meaningless image"
+        />
+      </td>
+      <td>
+        <h1><a href="https://www.google.com">김승범</a></h1>
+        <p>이 안에 들어가면 하나의 단락으로 인식된다.</p>
+        <i>i태그안에 작성하면 이탤릭체로 표시된다.</i>
+        <em
+          >em태그 안에 작성하면 단순히 이탤릭체로 표시될 뿐만 아니라 이안에
+          들어가는 글들은 강조(emphasize)됨을 의미한다.<strong
+            >반면, 이렇게 쓰면 이탤릭체이면서 강조된 글을 작성할 수 있다. 단순
+            b태그와는 다르다.</strong
+          ></em
+        >
+        <p>이것은 새로운 단락이다.</p>
+      </td>
+    </table>
+
+    <hr size="3" noshade />
+    <h3>소제목이다.</h3>
+    <ul>
+      <li>목차1</li>
+      <li>목차2</li>
+      <li>목차3</li>
+    </ul>
+    <hr size="3" noshade />
+    <table>
+      <tr>
+        <td>김승범</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>김효빈</td>
+        <td>25</td>
+      </tr>
+    </table>
+    <hr size="3" noshade />
+    <h3>테이블헤드가 뭐지</h3>
+    <table>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>파이썬</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>html</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>자바스크립트</td>
+            <td>🌟</td>
+          </tr>
+          <tr>
+            <td>html</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+        </table>
+      </td>
+    </table>
+
+    <a href="myhobbies.html"><h3>나의 취미</h3></a>
+    <a href="contacts.html"><h3>연락처</h3></a>
+    <a href="inputs.html"><h3>인풋연습</h3></a>
+
+
+
+
+
+  </body>
+</html>
